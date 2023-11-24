@@ -18,7 +18,7 @@ run_cv				# reads dosFile, comment out to not run
 run_cv_out cv			# filename for the temperature curves
 startT 120			# starting temperature
 deltaT 0.2			# step in temperature
-ntemps 100			# total temps to generate
+ntemps 300			# total temps to generate
 
 #run free? Comment if no
 run_free			# reads dosFile, comment out to not run
