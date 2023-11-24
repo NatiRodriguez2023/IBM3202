@@ -23,7 +23,7 @@ ntemps 300			# total temps to generate
 #run free? Comment if no
 run_free			# reads dosFile, comment out to not run
 run_free_out free		# prefix for the free energy curves
-startTF 120			# first temperature to compute F(Q)
+startTF 148			# first temperature to compute F(Q)
 deltaTF 0.5			# step in temperature
 ntempsF 10			# total F(Q) to generate
 readFreeEnergy			# read previous free_energy_out file
