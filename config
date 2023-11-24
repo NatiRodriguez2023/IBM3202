@@ -16,14 +16,14 @@ dosFile dos			# density of states output filename for run_wham, input filename f
 #run_cv? Comment if no
 run_cv				# reads dosFile, comment out to not run
 run_cv_out cv			# filename for the temperature curves
-startT 140			# starting temperature
+startT 120			# starting temperature
 deltaT 0.2			# step in temperature
 ntemps 100			# total temps to generate
 
 #run free? Comment if no
 run_free			# reads dosFile, comment out to not run
 run_free_out free		# prefix for the free energy curves
-startTF 148			# first temperature to compute F(Q)
+startTF 120			# first temperature to compute F(Q)
 deltaTF 0.5			# step in temperature
 ntempsF 10			# total F(Q) to generate
 readFreeEnergy			# read previous free_energy_out file
@@ -46,12 +46,13 @@ step 2
 #step 2
 
 ### list of histogram filenames and their temperatures ###
-numFiles       8
-name hist.146 temp 146
-name hist.148 temp 148
+numFiles       9
+name hist.120 temp 120
+name hist.128 temp 128
+name hist.135 temp 135
+name hist.143 temp 143
 name hist.150 temp 150
-name hist.152 temp 152
-name hist.154 temp 154
-name hist.156 temp 156
 name hist.158 temp 158
-name hist.160 temp 160
+name hist.165 temp 165
+name hist.173 temp 173
+name hist.180 temp 180
